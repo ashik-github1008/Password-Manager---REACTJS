@@ -1,0 +1,71 @@
+* {
+  font-family: 'Roboto';
+}
+
+.password-list {
+  background-color: transparent;
+  border: 1px solid #7683cb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  padding: 8px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-right: 12px;
+  max-height: 90px;
+}
+
+.initial {
+  background-color: #0b69ff;
+  width: 34px;
+  height: 34px;
+  border-radius: 34px;
+  padding-top: 0px;
+  padding-bottom: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.website-name-pwd-container {
+  color: #f8fafc;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.website {
+  font-size: 14px;
+}
+
+.delete-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 35px;
+}
+
+.initial-container {
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:focus {
+  outline: none;
+}
+
+.star-img {
+  font-size: 0px;
+}
+
+.password {
+  height: 15%;
+  width: 100%;
+}
